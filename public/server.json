@@ -1,0 +1,69 @@
+{
+  "contacts": [
+    {
+      "id": "1",
+      "name": "Parikshit Dave",
+      "mobile": "+91 98765 43210",
+      "email": "parikshit.dave@example.com",
+      "profilePhoto": "https://randomuser.me/api/portraits/men/1.jpg",
+      "address": "101 MG Road, Pune, Maharashtra"
+    },
+    {
+      "id": "2",
+      "name": "Armaan Usmani",
+      "mobile": "+91 91234 56789",
+      "email": "armaan.usmani@example.com",
+      "profilePhoto": "https://randomuser.me/api/portraits/men/2.jpg",
+      "address": "12 Residency Road, Bangalore, Karnataka"
+    },
+    {
+      "id": "3",
+      "name": "Komal",
+      "mobile": "+91 99876 54321",
+      "email": "komal.sharma@example.com",
+      "profilePhoto": "",
+      "address": "45 Park Street, Kolkata, West Bengal"
+    },
+    {
+      "id": "4",
+      "name": "Achintya",
+      "mobile": "+91 98765 67890",
+      "email": "achintya.patel@example.com",
+      "profilePhoto": "https://randomuser.me/api/portraits/men/4.jpg",
+      "address": "78 Marine Drive, Mumbai, Maharashtra"
+    },
+    {
+      "id": "5",
+      "name": "Kaustubh",
+      "mobile": "+91 91234 87654",
+      "email": "kaustubh.jain@example.com",
+      "profilePhoto": "https://randomuser.me/api/portraits/men/5.jpg",
+      "address": "56 Civil Lines, Delhi"
+    },
+    {
+      "id": "6",
+      "name": "Abhiraj",
+      "mobile": "+91 99887 66554",
+      "email": "abhiraj.singh@example.com",
+      "profilePhoto": "https://randomuser.me/api/portraits/men/6.jpg",
+      "address": "23 Brigade Road, Bangalore, Karnataka"
+    },
+    {
+      "id": "7",
+      "name": "Nishkrant",
+      "mobile": "+91 98765 11223",
+      "email": "nishkrant.gupta@example.com",
+      "profilePhoto": "https://randomuser.me/api/portraits/men/7.jpg",
+      "address": "89 Ashok Nagar, Chennai, Tamil Nadu"
+    },
+    {
+      "id": "8",
+      "name": "Varshath",
+      "mobile": "+91 91234 33445",
+      "email": "varshath.kumar@example.com",
+      "profilePhoto": "https://randomuser.me/api/portraits/women/8.jpg",
+      "address": "12 Old City Road, Hyderabad, Telangana"
+    }
+  ]
+}
+
