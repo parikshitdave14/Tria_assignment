@@ -47,7 +47,7 @@ const ContactCard = ({ contact, onClick }: ContactCardProps) => {
               <span className="truncate">{contact.mobile}</span>
             </div>
             {contact.email && (
-              <div className="flex items-center gap-2 text-sm text-accent">
+              <div className="flex items-center gap-2 text-sm text-muted-foreground">
                 <Mail className="h-3.5 w-3.5 flex-shrink-0" />
                 <span className="truncate">{contact.email}</span>
               </div>
