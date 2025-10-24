@@ -55,15 +55,17 @@ const ContactCard = ({ contact, onClick }: ContactCardProps) => {
           </div>
         </div>
         <div className="flex justify-center gap-4 ">
-  <a href={`tel:${contact.mobile}`}>
-    <Phone className="w-6 h-6 hover:animate-wiggle hover:text-[#3b82f6]" /> 
+  <a href={`tel:${contact.mobile}`}
+       onClick={(e) => e.stopPropagation()}
+       >
+    <Phone className="z-50 w-6 h-6 hover:animate-wiggle hover:text-[#3b82f6]" /> 
   </a>
 
-  <a href={`https://wa.me/${contact.mobile}`} target="_blank">
+  <a href={`https://wa.me/${contact.mobile}`} target="_blank" onClick={(e) => e.stopPropagation()}>
     <MessageCircle className="w-6 h-6 hover:animate-wiggle hover:text-[#3b82f6]" />
   </a>
 
-  <a href="mailto:youremail@example.com?subject=Inquiry">
+  <a href="mailto:youremail@example.com?subject=Inquiry" onClick={(e) => e.stopPropagation()}>
      <Mail className="w-6 h-6 hover:animate-wiggle hover:text-[#3b82f6]"/>
   </a>
 </div>
