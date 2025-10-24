@@ -55,7 +55,7 @@ const ContactCard = ({ contact, onClick }: ContactCardProps) => {
           </div>
         </div>
         <div className="flex justify-center gap-4 ">
-  <a href={`${contact.mobile}`}>
+  <a href={`tel:${contact.mobile}`}>
     <Phone className="w-6 h-6 hover:animate-wiggle hover:text-[#3b82f6]" /> 
   </a>
 

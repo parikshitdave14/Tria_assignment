@@ -66,7 +66,7 @@ const ContactDetailModal = ({ contact, open, onOpenChange }: ContactDetailModalP
                   <p className="text-xs text-muted-foreground mb-1">Email</p>
                   <a
                     href={`mailto:${contact.email}`}
-                    className="font-medium text-accent hover:underline break-all"
+                    className="font-medium text-muted-foreground break-all"
                   >
                     {contact.email}
                   </a>
